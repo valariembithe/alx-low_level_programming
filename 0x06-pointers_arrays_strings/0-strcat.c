@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * strcat - concatenates a string
+ * _strcat - concatenates a string
  * @src: string to append
  * @dest: string destination
  *

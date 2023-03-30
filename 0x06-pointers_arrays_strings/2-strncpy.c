@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- * strncpy - copies string
+ * _strncpy - copies string
  * @dest: destination of copied string
  * @src: string to be copied
+ * @n: number of bytes
  *
  * Return:: copied string
  */

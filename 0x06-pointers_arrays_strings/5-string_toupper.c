@@ -4,7 +4,7 @@
  * string_toupper - converts lowercase to uppercase
  * @str: string
  *
- * Returns: uppercase string
+ * Return: uppercase string
  */
 char *string_toupper(char *str)
 {

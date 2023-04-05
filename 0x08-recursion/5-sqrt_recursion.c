@@ -2,11 +2,13 @@
 
 /**
  * _sqrt_recursion - square root of n
- * @n: number
+ * @n: number to check
+ * @i: iterate number
+ * _sqrt - check natural sqrt
  *
  * Return: Always 0 success
  */
-int _sqrt (int n, int i);
+int _sqrt(int n, int i);
 int _sqrt_recursion(int n)
 {
 	if (n < 0)
@@ -15,9 +17,11 @@ int _sqrt_recursion(int n)
 }
 
 /**
- * @i: iterate number
+ * _sqrt - check natural sqrt
  * @n: calculate square root
- * _sqrt - calc natural sqrt
+ * @i: iterate number
+ *
+ * Return: 0 if natural sqrt else -1
  */
 
 int _sqrt(int n, int i)

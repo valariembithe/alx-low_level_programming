@@ -3,19 +3,23 @@
 /**
  * is_prime_number - checks prime no
  * @n: number
+ * @i: iteration times
  *
  * Return: Always 0 success else 1
  */
+
 int _prime(int n, int i);
-/**
- * @n: number
- * @i: iteration
- * _prime - prime numbers
- */
 int is_prime_number(int n)
 {
 	return (_prime(n, 1));
 }
+/**
+ * _prime - checks prime numbers
+ * @n: number to be checked
+ * @i: iteration times
+ *
+ * Return: 1 if prime else 0
+ */
 int _prime(int n, int i)
 {
 	if (n <= 1)

@@ -2,12 +2,11 @@
 #define NULL (void *)0
 
 /**
- * @name: name of dog
+ * init_dog - Initializes a variable of type struct dog.
+ * @name: the name of the dog
  * @age: age of dog
  * @owner: name of owner
- * struct dog - details of dog
  * @d: dog
- * init_dog - initialises dog info
  */
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {

@@ -1,7 +1,8 @@
 #include "function_pointers.h"
 
 /**
- * @name: the name of a person
+ * print_name - prints name
+ * @name: a string
  * @f: a function pointer
  * Return: void
  */

@@ -1,5 +1,5 @@
 #include "function_pointers.h"
-#include <stddef.h>
+
 /**
  * @name: the name of a person
  * @f: a function pointer
